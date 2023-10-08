@@ -1,6 +1,7 @@
 var PF = require('..');
 var Grid = PF.Grid;
 var DiagonalMovement = PF.DiagonalMovement;
+require('should')
 
 describe('Grid', function() {
     describe('generate without matrix', function() {

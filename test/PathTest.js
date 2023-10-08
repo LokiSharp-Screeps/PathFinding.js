@@ -1,5 +1,6 @@
 var PF        = require('..')
 var scenarios = require('./PathTestScenarios');
+require('should')
 
 /**
  * Path-finding tests for the path-finders.

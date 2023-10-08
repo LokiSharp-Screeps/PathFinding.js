@@ -1,4 +1,5 @@
 var PF = require('..');
+require('should')
 
 describe('Utility functions', function () {
     describe('interpolate', function () {
